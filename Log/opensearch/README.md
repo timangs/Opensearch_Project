@@ -40,11 +40,11 @@
           
           ![image](https://github.com/user-attachments/assets/c5cb15be-0b7b-4db2-9066-d451c897c88e)
           
-          - `CloudTrail_Area_사용자` (`type: horizontal_bar`): 사용자(`userIdentity.userName`)별 CloudTrail 이벤트 수의 시간 추세를 가로 막대 차트로 표시합니다.
+          - `CloudTrail_Area_사용자` (`type: line`): 사용자(`userIdentity.userName`)별 CloudTrail 이벤트 수의 시간 추세를 가로 막대 차트로 표시합니다.
           
           ![image](https://github.com/user-attachments/assets/717cfc08-94b1-479d-9a78-740759460feb)
           
-          - `CloudTrail_Area_사용량` (`type: line`): AWS Region(`awsRegion`)별 CloudTrail 이벤트 수의 시간 추세를 라인 차트로 표시합니다. (참고: VisState에는 `line`으로 정의되어 있습니다.)
+          - `CloudTrail_Area_사용량` (`type: horizontal_bar`): AWS Region(`awsRegion`)별 CloudTrail 이벤트 수의 시간 추세를 라인 차트로 표시합니다. (참고: VisState에는 `line`으로 정의되어 있습니다.)
           
           ![image](https://github.com/user-attachments/assets/c78201d0-d689-4f03-9aff-f660260f6536)
 
